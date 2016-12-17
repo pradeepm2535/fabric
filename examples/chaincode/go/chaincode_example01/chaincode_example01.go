@@ -35,7 +35,7 @@ var Aval, Bval, X int
 // This chaincode will manage two accounts A and B and will transfer X units from A to B upon invoke
 func (t *SimpleChaincode) Init(stub shim.ChaincodeStub) ([]byte, error) {
 	var err error
-	_, args := stub.GetFunctionAndParameters()
+	//_, args := stub.GetFunctionAndParameters()
 	if len(args) != 4 {
 		return nil, errors.New("Incorrect number of arguments. Expecting 4")
 	}
