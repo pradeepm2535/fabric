@@ -21,9 +21,6 @@ import (
 	"fmt"
 	"strconv"
 
-	"hyperledger/cci/appinit"
-	"hyperledger/cci/org/hyperledger/chaincode/example02"
-	
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
