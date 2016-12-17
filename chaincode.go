@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"core/chaincode/shim"
+	"github.com/pradeepm2535/fabric/core/chaincode/shim"
 )
 
 // SimpleChaincode example simple Chaincode implementation
